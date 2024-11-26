@@ -4,12 +4,10 @@
 This project demonstrates the process of migrating a relational database schema (PostgreSQL) to a NoSQL schema (MongoDB). It covers schema design, data migration using the ETL process, and performance optimization.
 
 ## Repository Structure
-<ol>
-<li><b>/docs</b>: Detailed documentation and diagrams.</li>
-<li><b>/src</b>: Python scripts for ETL and query optimization.</li>
-<li><b>/data</b>: Sample datasets used for migration and validation.</li>
-<li><b>/tests</b>: Scripts for data consistency checks.</li>
-</ol>
+<ul>
+<li><b><a href="https://github.com/dikshakashyap24/Data-Migration/tree/main/data">/data</a></b>: Sample datasets used for migration and validation.</li>
+<li><b><a href="https://github.com/dikshakashyap24/Data-Migration/tree/main/src">/src</a></b>: Python scripts for ETL and query optimization.</li>
+</ul>
 
 ## Relational Schema Design
 The relational schema was implemented in PostgreSQL with the following tables:
