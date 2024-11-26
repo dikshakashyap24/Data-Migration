@@ -23,7 +23,7 @@ The relational schema was implemented in PostgreSQL with the following tables:
 5. **Enrollments**
 
 <p align="center">
-   <img src="https://github.com/user-attachments/assets/0451dd51-3ce0-40da-bfef-51fc81c19c95" alt="RDBS schema" width="80%"/>
+   <img src="https://github.com/user-attachments/assets/46682839-aa74-494a-b0a7-1b0022b742ab" alt="RDBS schema" width="60%"/>
 </p>
 
 ## MongoDB Schema Design
