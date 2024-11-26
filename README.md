@@ -1,5 +1,10 @@
 # Porting RDBMS to MongoDB and querying using Apache Spark
 
+![Apache Spark](https://img.shields.io/badge/Apache%20Spark-FDEE21?style=flat-square&logo=apachespark&logoColor=black)
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+
 ## Project Overview
 This project demonstrates the process of migrating a relational database schema (PostgreSQL) to a NoSQL schema (MongoDB). It covers schema design, data migration using the ETL process, and performance optimization.
 
@@ -17,7 +22,7 @@ The relational schema was implemented in PostgreSQL with the following tables:
 4. **Instructors**
 5. **Enrollments**
 
-<p align="right">
+<p align="center">
    <img src="https://github.com/user-attachments/assets/0451dd51-3ce0-40da-bfef-51fc81c19c95" alt="RDBS schema" width="80%"/>
 </p>
 
