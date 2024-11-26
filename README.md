@@ -19,6 +19,10 @@ The relational schema was implemented in PostgreSQL with the following tables:
 4. **Instructors**
 5. **Enrollments**
 
+<p align="right">
+   <img src="https://github.com/user-attachments/assets/0451dd51-3ce0-40da-bfef-51fc81c19c95" alt="RDBS schema" width="80%"/>
+</p>
+
 ## MongoDB Schema Design
 The MongoDB schema employs denormalization and embedding to optimize read-heavy operations. Key collections include:
 1. **Students**
@@ -45,7 +49,10 @@ The migration was executed using a structured ETL pipeline:
 - **Query Optimization:** Improved query performance by leveraging field selection, caching, and broadcast joins.
 
 ## Results and Validation
-Post-migration query time wascomparing query results from PostgreSQL and MongoDB. Performance enhancements were tested through real-world query scenarios.
+Post-migration query performance was evaluated by comparing execution times of identical queries using Apache Spark before and after optimization.
+<p align="center">
+   <img src="https://github.com/user-attachments/assets/cb30d838-dad6-475f-90e8-093bafb78137" alt="Results" width="80%"/>
+</p>
 
 ## Tools and Libraries
 - **PostgreSQL**
