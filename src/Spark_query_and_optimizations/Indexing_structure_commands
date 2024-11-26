@@ -1,0 +1,11 @@
+#Student Collection
+db.students.createIndex({"enrollments.course_id": 1})
+db.students.createIndex({"enrollments.instructor.instructor_id": 1})
+db.students.createIndex({"department_id": 1})
+
+#Instructors Collection
+db.instructors.createIndex({"courses_taught.course_id": 1})
+
+#Departments Collection:
+db.departments.createIndex({"courses.course_id": 1})
+db.departments.createIndex({"department_name": 1})
